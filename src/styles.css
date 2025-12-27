@@ -1,1 +1,28 @@
-/* You can add global styles to this file, and also import other style files */
+/* src/styles.css */
+
+/* 1. Importamos fuentes modernas de Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@300;400&display=swap');
+
+/* 2. Reseteo básico para quitar márgenes molestos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* Fuente principal para textos largos */
+  font-family: 'Roboto', sans-serif;
+  
+  /* COLOR DE FONDO: Gris azulado muy suave. 
+     Hace que las tarjetas blancas "floten" y resalten mucho más */
+  background-color: #f4f6f9; 
+  
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Títulos con la fuente más "bold" y moderna */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+}
