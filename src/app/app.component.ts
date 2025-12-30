@@ -28,7 +28,7 @@ export class AppComponent {
       description: 'Aplicación Fullstack diseñada para ofrecer una gestión eficiente y segura de agendas personales.',
       imageUrl: 'assets/images/nexusagenda_Logo.png',
       techIcons: ['Angular', 'Spring Boot', 'MySQL'],
-      demoUrl: '#',
+      demoUrl: 'https://nexusagenda.netlify.app/',
       codeUrl: 'https://github.com/javaqber/nexusagenda'
     }
   ];
