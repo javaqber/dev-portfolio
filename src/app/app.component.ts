@@ -30,6 +30,24 @@ export class AppComponent {
       techIcons: ['Angular', 'Spring Boot', 'MySQL'],
       demoUrl: 'https://nexusagenda.netlify.app/',
       codeUrl: 'https://github.com/javaqber/nexusagenda'
+    },
+    {
+      id: 3,
+      title: 'EcoRadar - Localizador de Puntos Ecológicos',
+      description: 'Desarrollo Full Stack y Sistemas de Información Geográfica (GIS).',
+      imageUrl: 'assets/images/ecoradar_logo.png',
+      techIcons: ['Angular', 'Spring Boot', 'Docker', 'PostgreSQL'],
+      demoUrl: '#',
+      codeUrl: 'https://github.com/javaqber/ecoradar.git'
+    },
+    {
+      id: 4,
+      title: 'BitSense Monitor - Monitor de Sentimiento y Precio de Bitcoin',
+      description: 'Ingeniería de Datos end-to-end que monitoriza el precio del Bitcoin en tiempo real.',
+      imageUrl: 'assets/images/bitsense_monitor.png',
+      techIcons: ['Python', 'Docker', 'PostgreSQL'],
+      demoUrl: '#',
+      codeUrl: 'https://github.com/javaqber/bitcoin-sentiment-etl-docker.git'
     }
   ];
 }
