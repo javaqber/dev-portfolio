@@ -15,21 +15,21 @@ export class AppComponent {
   projects: Project[] = [
     {
       id: 1,
-      title: 'Wodup - Gestión Deportiva',
-      description: 'Plataforma Fullstack para gestión de reservas y usuarios en gimnasios. Incluye autenticación JWT y roles.',
-      imageUrl: 'assets/images/prototipo_wodup.png', 
-      techIcons: ['Angular', 'Spring Boot', 'MySQL', 'Docker'],
-      demoUrl: 'https://wodup.netlify.app',
-      codeUrl: 'https://github.com/javaqber/wodup/tree/master'
+      title: 'IQI - Industrial Quality Inspector',
+      description: 'API utiliza un modelo YOLOv8 entrenado para detectar defectos en la extrusión de aluminio.',
+      imageUrl: 'assets/images/logo_IQI.png', 
+      techIcons: ['Python', 'Docker', 'FastAPI'],
+      demoUrl: 'https://industrial-quality-inspector.onrender.com/docs',
+      codeUrl: 'https://github.com/javaqber/industrial-quality-inspector.git'
     },
     {
       id: 2,
-      title: 'NexusAgenda - Gestión de Eventos Personales',
-      description: 'Aplicación Fullstack diseñada para ofrecer una gestión eficiente y segura de agendas personales.',
-      imageUrl: 'assets/images/nexusagenda_Logo.png',
-      techIcons: ['Angular', 'Spring Boot', 'MySQL'],
-      demoUrl: 'https://nexusagenda.netlify.app/',
-      codeUrl: 'https://github.com/javaqber/nexusagenda'
+      title: 'BitSense Monitor - Monitor de Sentimiento y Precio de Bitcoin',
+      description: 'Ingeniería de Datos end-to-end que monitoriza el precio del Bitcoin en tiempo real.',
+      imageUrl: 'assets/images/bitsense_monitor.png',
+      techIcons: ['Python', 'Docker', 'PostgreSQL'],
+      demoUrl: '#',
+      codeUrl: 'https://github.com/javaqber/bitcoin-sentiment-etl-docker.git'
     },
     {
       id: 3,
@@ -42,12 +42,21 @@ export class AppComponent {
     },
     {
       id: 4,
-      title: 'BitSense Monitor - Monitor de Sentimiento y Precio de Bitcoin',
-      description: 'Ingeniería de Datos end-to-end que monitoriza el precio del Bitcoin en tiempo real.',
-      imageUrl: 'assets/images/bitsense_monitor.png',
-      techIcons: ['Python', 'Docker', 'PostgreSQL'],
-      demoUrl: '#',
-      codeUrl: 'https://github.com/javaqber/bitcoin-sentiment-etl-docker.git'
+      title: 'NexusAgenda - Gestión de Eventos Personales',
+      description: 'Aplicación Fullstack diseñada para ofrecer una gestión eficiente y segura de agendas personales.',
+      imageUrl: 'assets/images/nexusagenda_Logo.png',
+      techIcons: ['Angular', 'Spring Boot', 'MySQL'],
+      demoUrl: 'https://nexusagenda.netlify.app/',
+      codeUrl: 'https://github.com/javaqber/nexusagenda'
+    },
+    {
+      id: 5,
+      title: 'Wodup - Gestión Deportiva',
+      description: 'Plataforma Fullstack para gestión de reservas y usuarios en gimnasios. Incluye autenticación JWT y roles.',
+      imageUrl: 'assets/images/prototipo_wodup.png', 
+      techIcons: ['Angular', 'Spring Boot', 'MySQL', 'Docker'],
+      demoUrl: 'https://wodup.netlify.app',
+      codeUrl: 'https://github.com/javaqber/wodup/tree/master'
     }
   ];
 }
