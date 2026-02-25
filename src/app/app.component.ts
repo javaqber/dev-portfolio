@@ -15,6 +15,15 @@ export class AppComponent {
   projects: Project[] = [
     {
       id: 1,
+      title: 'AuraPredict - Mantenimiento Predictivo',
+      description: 'Plataforma con IA para predecir fallos mecánicos en la industria mediante análisis de sensores en tiempo real.',
+      imageUrl: 'assets/images/aura_predict_logo.png', 
+      techIcons: ['Python', 'FastAPI', 'Streamlit', 'Scikit-Learn'],
+      demoUrl: 'https://aurapredict-dashboard.onrender.com/',
+      codeUrl: 'https://github.com/javaqber/aura-predict.git'
+    },
+    {
+      id: 2,
       title: 'IQI - Industrial Quality Inspector',
       description: 'API utiliza un modelo YOLOv8 entrenado para detectar defectos en la extrusión de aluminio.',
       imageUrl: 'assets/images/logo_IQI.png', 
@@ -23,7 +32,7 @@ export class AppComponent {
       codeUrl: 'https://github.com/javaqber/industrial-quality-inspector.git'
     },
     {
-      id: 2,
+      id: 3,
       title: 'BitSense Monitor - Monitor de Sentimiento y Precio de Bitcoin',
       description: 'Ingeniería de Datos end-to-end que monitoriza el precio del Bitcoin en tiempo real.',
       imageUrl: 'assets/images/bitsense_monitor.png',
@@ -32,7 +41,7 @@ export class AppComponent {
       codeUrl: 'https://github.com/javaqber/bitcoin-sentiment-etl-docker.git'
     },
     {
-      id: 3,
+      id: 4,
       title: 'EcoRadar - Localizador de Puntos Ecológicos',
       description: 'Desarrollo Full Stack y Sistemas de Información Geográfica (GIS).',
       imageUrl: 'assets/images/ecoradar_logo.png',
@@ -41,7 +50,7 @@ export class AppComponent {
       codeUrl: 'https://github.com/javaqber/ecoradar.git'
     },
     {
-      id: 4,
+      id: 5,
       title: 'NexusAgenda - Gestión de Eventos Personales',
       description: 'Aplicación Fullstack diseñada para ofrecer una gestión eficiente y segura de agendas personales.',
       imageUrl: 'assets/images/nexusagenda_Logo.png',
@@ -50,7 +59,7 @@ export class AppComponent {
       codeUrl: 'https://github.com/javaqber/nexusagenda'
     },
     {
-      id: 5,
+      id: 6,
       title: 'Wodup - Gestión Deportiva',
       description: 'Plataforma Fullstack para gestión de reservas y usuarios en gimnasios. Incluye autenticación JWT y roles.',
       imageUrl: 'assets/images/prototipo_wodup.png', 
