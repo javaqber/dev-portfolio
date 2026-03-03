@@ -28,7 +28,7 @@ export class AppComponent {
       description: 'API utiliza un modelo YOLOv8 entrenado para detectar defectos en la extrusión de aluminio.',
       imageUrl: 'assets/images/logo_IQI.png', 
       techIcons: ['Python', 'Docker', 'FastAPI'],
-      demoUrl: 'https://industrial-quality-inspector.onrender.com/docs',
+      demoUrl: 'https://iqi-dashboard.onrender.com',
       codeUrl: 'https://github.com/javaqber/industrial-quality-inspector.git'
     },
     {
@@ -37,7 +37,7 @@ export class AppComponent {
       description: 'Ingeniería de Datos end-to-end que monitoriza el precio del Bitcoin en tiempo real.',
       imageUrl: 'assets/images/bitsense_monitor.png',
       techIcons: ['Python', 'Docker', 'PostgreSQL'],
-      demoUrl: '#',
+      demoUrl: 'https://github.com/javaqber/bitcoin-sentiment-etl-docker.git',
       codeUrl: 'https://github.com/javaqber/bitcoin-sentiment-etl-docker.git'
     },
     {
@@ -46,7 +46,7 @@ export class AppComponent {
       description: 'Desarrollo Full Stack y Sistemas de Información Geográfica (GIS).',
       imageUrl: 'assets/images/ecoradar_logo.png',
       techIcons: ['Angular', 'Spring Boot', 'Docker', 'PostgreSQL'],
-      demoUrl: '#',
+      demoUrl: 'https://github.com/javaqber/ecoradar.git',
       codeUrl: 'https://github.com/javaqber/ecoradar.git'
     },
     {
