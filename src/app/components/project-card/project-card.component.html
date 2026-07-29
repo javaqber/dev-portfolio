@@ -1,25 +1,28 @@
 <div class="card">
-  <div class="card-image">
-    <img [src]="project.imageUrl" [alt]="project.title">
+  <div class="card-accent" [style.background]="project.brandColor"></div>
+  <div class="card-brand" [style.background]="project.brandBg">
+    <div class="brand-dots"></div>
+    <span class="brand-name">
+      <span [style.color]="project.brandColor">{{ project.brandText1 }}</span>
+      <span class="brand-name-2">{{ project.brandText2 }}</span>
+    </span>
   </div>
-
   <div class="card-content">
     <h3>{{ project.title }}</h3>
     <p>{{ project.description }}</p>
-
     <div class="tech-stack">
-      @for (tech of project.techIcons; track $index) {
-        <span class="tech-badge">{{ tech }}</span>
+      @for (tech of project.techIcons; track tech) {
+        <span class="tech-badge"
+          [style.background]="getTechColor(tech) + '20'"
+          [style.color]="getTechColor(tech)"
+          [style.border]="'1px solid ' + getTechColor(tech) + '40'">
+          {{ tech }}
+        </span>
       }
     </div>
-
     <div class="card-actions">
-      <a [href]="project.demoUrl" target="_blank" class="btn btn-primary">
-        🚀 Ver Demo
-      </a>
-      <a [href]="project.codeUrl" target="_blank" class="btn btn-secondary">
-        💻 Código
-      </a>
+      <a [href]="project.demoUrl" target="_blank" class="btn btn-primary">🚀 Demo</a>
+      <a [href]="project.codeUrl" target="_blank" class="btn btn-secondary">💻 Código</a>
     </div>
   </div>
 </div>

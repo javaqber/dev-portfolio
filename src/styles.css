@@ -1,28 +1,12 @@
-/* src/styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@300;400;500&display=swap');
 
-/* 1. Importamos fuentes modernas de Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@300;400&display=swap');
+*{margin:0;padding:0;box-sizing:border-box}
 
-/* 2. Reseteo básico para quitar márgenes molestos */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+body{
+  font-family:'Inter',sans-serif;
+  background-color:#0F172A;
+  color:#333;
+  line-height:1.6;
 }
 
-body {
-  /* Fuente principal para textos largos */
-  font-family: 'Roboto', sans-serif;
-  
-  /* COLOR DE FONDO: Gris azulado muy suave. 
-     Hace que las tarjetas blancas "floten" y resalten mucho más */
-  background-color: #f4f6f9; 
-  
-  color: #333;
-  line-height: 1.6;
-}
-
-/* Títulos con la fuente más "bold" y moderna */
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Poppins', sans-serif;
-}
+h1,h2,h3,h4,h5,h6{font-family:'Poppins',sans-serif;}

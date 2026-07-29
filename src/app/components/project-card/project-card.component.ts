@@ -10,6 +10,15 @@ import { Project } from '../../models/project.interface';
   standalone: true
 })
 export class ProjectCard {
- // @Input permite que el padre le pase el proyecto a esta tarjeta
- @Input() project!: Project;
+  @Input() project!: Project;
+
+  getTechColor(tech: string): string {
+    const colors: {[key: string]: string} = {
+      'Python': '#3776AB', 'FastAPI': '#009688', 'Streamlit': '#FF4B4B',
+      'Scikit-Learn': '#F7931E', 'PostgreSQL': '#336791', 'Claude AI': '#D97706',
+      'Angular': '#DD0031', 'Spring Boot': '#6DB33F', 'Docker': '#2496ED',
+      'MySQL': '#4479A1', 'React': '#61DAFB', 'TypeScript': '#3178C6'
+    };
+    return colors[tech] || '#64748B';
+  }
 }
